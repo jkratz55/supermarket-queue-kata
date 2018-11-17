@@ -1,11 +1,9 @@
 package io.jkratz.katas.supermarketqueue;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class SuperMarketQueue {
@@ -27,7 +25,7 @@ public class SuperMarketQueue {
                 .limit(numOfTills)
                 .collect(Collectors.toList());
 
-        for (int i: customerTimings) {
+        for (int i : customerTimings) {
             int min = Collections.min(q);
             int index = q.indexOf(min);
             int currentValue = q.get(index);
@@ -35,19 +33,5 @@ public class SuperMarketQueue {
         }
 
         return Collections.max(q);
-    }
-
-    private int min(int[] arr) {
-        return IntStream.range(0, arr.length)
-                .map(i -> arr[i])
-                .min()
-                .getAsInt();
-    }
-
-    private int max(int[] arr) {
-        return IntStream.range(0, arr.length)
-                .map(i -> arr[i])
-                .max()
-                .getAsInt();
     }
 }
