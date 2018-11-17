@@ -1,6 +1,6 @@
 package io.jkratz.katas.supermartketqueue;
 
-import io.jkratz.katas.supermarketqueue.kotlin.SuperMarketQueue;
+import io.jkratz.katas.supermarketqueue.SuperMarketQueue;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

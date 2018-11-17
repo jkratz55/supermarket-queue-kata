@@ -1,6 +1,5 @@
 package io.jkratz.katas.supermarketqueue.kotlin
 
-import io.jkratz.katas.supermarketqueue.kotlin.kotlin.SuperMarketQueue
 import junit.framework.Assert.assertEquals
 import org.junit.Test
 
