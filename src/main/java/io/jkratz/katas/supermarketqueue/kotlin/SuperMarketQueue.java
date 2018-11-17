@@ -1,4 +1,4 @@
-package io.jkratz.katas.supermarketqueue;
+package io.jkratz.katas.supermarketqueue.kotlin;
 
 import java.util.Arrays;
 import java.util.Collections;
